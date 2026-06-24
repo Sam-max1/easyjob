@@ -22,10 +22,10 @@ graph TB
     end
 
     subgraph AI["AI Layer — lib/openai.ts"]
-        H[Phase 1: analyzeJobDescription\nGPT-4o JSON mode]
-        I[Phase 2: generateProofOfWorkCode\nGPT-4o code synthesis]
-        J[Phase 3: realignResume\nGPT-4o zero-fabrication]
-        K[Phase 4: generateOutreachAssets\nGPT-4o cover letter + DM]
+        H["Phase 1: analyzeJobDescription\nGPT-4o JSON mode"]
+        I["Phase 2: generateProofOfWorkCode\nGPT-4o code synthesis"]
+        J["Phase 3: realignResume\nGPT-4o zero-fabrication"]
+        K["Phase 4: generateOutreachAssets\nGPT-4o cover letter + DM"]
     end
 
     subgraph Deploy["Deployment — lib/vercel.ts"]
